@@ -1,0 +1,12 @@
+# 機密：API 金鑰絕對不能上傳
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# 系統與編輯器
+.DS_Store
+.vscode/

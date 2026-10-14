@@ -1,0 +1,14 @@
+[project]
+name = "misconception-db"
+version = "0.1.0"
+description = "K7–K9 數學迷思概念資料庫"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "sympy",
+    "anthropic",
+    "python-dotenv",
+    "langfuse",
+]
+
+[dependency-groups]
+dev = ["pytest"]
