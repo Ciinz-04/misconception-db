@@ -8,7 +8,12 @@ dependencies = [
     "anthropic",
     "python-dotenv",
     "langfuse",
+    "google-genai>=2.30.1",
+    "openinference-instrumentation-google-genai>=1.4.13",
 ]
 
 [dependency-groups]
 dev = ["pytest"]
+
+[tool.uv]
+python-preference = "only-managed"
