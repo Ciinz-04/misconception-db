@@ -1,0 +1,828 @@
+[
+ {
+  "id": "EQ-01",
+  "unit": "一元一次方程式",
+  "belief": "字母代表一個東西，不是一個數",
+  "type": "T3",
+  "secondary": "T1"
+ },
+ {
+  "id": "EQ-02",
+  "unit": "一元一次方程式",
+  "belief": "5a 就是 5 和 a 放在一起，不是 5×a",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "EQ-03",
+  "unit": "一元一次方程式",
+  "belief": "照文字順序把數量關係翻成式子，運算接到錯的量上（「甲比乙貴 7 元」寫成 a−7；「學生是教授的 6 倍」寫成 6S=P）",
+  "type": "T8",
+  "secondary": null
+ },
+ {
+  "id": "EQ-05",
+  "unit": "一元一次方程式",
+  "belief": "式子和方程式是同一件事（有字母就是方程式；化簡就是解方程式）",
+  "type": "T4",
+  "secondary": "T3"
+ },
+ {
+  "id": "EQ-06",
+  "unit": "一元一次方程式",
+  "belief": "不同字母的項也可以加在一起（3a+5b=8ab）",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "EQ-07a",
+  "unit": "一元一次方程式",
+  "belief": "括號外的數只要乘第一項",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "EQ-07b",
+  "unit": "一元一次方程式",
+  "belief": "括號前是負號，只要改第一項的符號",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "EQ-08a",
+  "unit": "一元一次方程式",
+  "belief": "移項時不用變號",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "EQ-08b",
+  "unit": "一元一次方程式",
+  "belief": "乘在係數上的數移到另一邊還是用乘",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "EQ-09",
+  "unit": "一元一次方程式",
+  "belief": "沒有移動的數也要變號",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "EQ-10a",
+  "unit": "一元一次方程式",
+  "belief": "方程式的解不能是 0",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "EQ-10b",
+  "unit": "一元一次方程式",
+  "belief": "係數不可能是 −1，−x 不是有係數的項",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "EQ-11",
+  "unit": "一元一次方程式",
+  "belief": "去分母時只要乘有分母的那一項",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "EQ-13a",
+  "unit": "一元一次方程式",
+  "belief": "代入數字後，答案仍保留字母",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "EQ-13b",
+  "unit": "一元一次方程式",
+  "belief": "同類項相減時把字母丟掉（15a 比 5a 多 10）",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "EQ-14a",
+  "unit": "一元一次方程式",
+  "belief": "列式時只加數量，不乘上單價",
+  "type": "T8",
+  "secondary": null
+ },
+ {
+  "id": "EQ-14b",
+  "unit": "一元一次方程式",
+  "belief": "列式時把兩種東西的單價對調",
+  "type": "T8",
+  "secondary": null
+ },
+ {
+  "id": "EQ-15",
+  "unit": "一元一次方程式",
+  "belief": "把題目裡的數字湊起來加就是答案",
+  "type": "T8",
+  "secondary": null
+ },
+ {
+  "id": "FR-01",
+  "unit": "分數",
+  "belief": "分成 n 份就是 1/n，每份不用一樣大",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "FR-02",
+  "unit": "分數",
+  "belief": "1/2 就是 1/2，不管整體是什麼",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "FR-03",
+  "unit": "分數",
+  "belief": "分母（或分子）數字越大，分數越大",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "FR-04",
+  "unit": "分數",
+  "belief": "乘法一定讓數變大",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "FR-05a",
+  "unit": "分數",
+  "belief": "數線上分割點的個數就是間隔數",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "FR-05b",
+  "unit": "分數",
+  "belief": "數線上整段就是 1，不看參考值",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "FR-06a",
+  "unit": "分數",
+  "belief": "帶分數擴分時，整數部分也要一起乘",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "FR-06b",
+  "unit": "分數",
+  "belief": "分子分母同加一個數，分數大小不變",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "FR-07",
+  "unit": "分數",
+  "belief": "看圖的大小判斷分數，不用算的",
+  "type": "T5",
+  "secondary": null
+ },
+ {
+  "id": "FR-08",
+  "unit": "分數",
+  "belief": "分數相加就是分子加分子、分母加分母",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "FR-09",
+  "unit": "分數",
+  "belief": "帶分數借位時，借來的 1 是加 10 到分子",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "FR-10a",
+  "unit": "分數",
+  "belief": "整數乘分數時，分子分母都要乘",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "FR-10b",
+  "unit": "分數",
+  "belief": "帶分數相乘，整數乘整數、分數乘分數",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "FR-11a",
+  "unit": "分數",
+  "belief": "分數除法要把被除數倒過來",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "FR-11b",
+  "unit": "分數",
+  "belief": "帶分數除以整數，只處理整數部分",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "FR-12",
+  "unit": "分數",
+  "belief": "分數乘法的圖示和算式無關",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "EQS-01",
+  "unit": "等號概念",
+  "belief": "等號左邊是算式，右邊是答案",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "EQS-02",
+  "unit": "等號概念",
+  "belief": "「是」就是「＝」",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "NG-01",
+  "unit": "正負數（整數運算）",
+  "belief": "先把數字加起來，再補上負號",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "NG-02",
+  "unit": "正負數（整數運算）",
+  "belief": "減法也可以前後交換（2−6=4）",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "NG-03",
+  "unit": "正負數（整數運算）",
+  "belief": "兩個負號遇到就變正（−2−3=5）",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "NG-04",
+  "unit": "正負數（整數運算）",
+  "belief": "括號前是減號，去括號不用變號",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "NG-05",
+  "unit": "正負數（整數運算）",
+  "belief": "「−」都是減號（或都是負號）",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "FM-01",
+  "unit": "因數與倍數（質因數分解、短除法）",
+  "belief": "因數和倍數是同一回事",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "FM-02",
+  "unit": "因數與倍數（質因數分解、短除法）",
+  "belief": "一個數的因數只有 1 和它自己",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "FM-03",
+  "unit": "因數與倍數（質因數分解、短除法）",
+  "belief": "最大公因數和最小公倍數一樣",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "LS-01",
+  "unit": "二元一次聯立方程式",
+  "belief": "乘以負數不用加括號",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "LS-02",
+  "unit": "二元一次聯立方程式",
+  "belief": "兩邊同乘時，只要乘其中幾項",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "LS-03",
+  "unit": "二元一次聯立方程式",
+  "belief": "兩式直接相加減，未知數就會消掉",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "GR-01a",
+  "unit": "二元一次方程式的圖形（直角坐標）",
+  "belief": "點坐標 (a, b) 的 a 是縱坐標",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "GR-01b",
+  "unit": "二元一次方程式的圖形（直角坐標）",
+  "belief": "一個點 (a, b) 要在兩軸各描一點",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "GR-02",
+  "unit": "二元一次方程式的圖形（直角坐標）",
+  "belief": "象限和 x、y 的正負號無關",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "GR-03",
+  "unit": "二元一次方程式的圖形（直角坐標）",
+  "belief": "沒有 x 的式子不是二元一次方程式",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "GR-04",
+  "unit": "二元一次方程式的圖形（直角坐標）",
+  "belief": "方程式的圖形只是幾個點，不是所有解連成的線",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "GR-05",
+  "unit": "二元一次方程式的圖形（直角坐標）",
+  "belief": "方程式的係數就是點的坐標",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "GR-06",
+  "unit": "二元一次方程式的圖形（直角坐標）",
+  "belief": "兩直線的交點和聯立方程式的解無關",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "QE-02",
+  "unit": "一元二次方程式",
+  "belief": "方程式兩邊可以同除以含 x 的式子",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "QE-03",
+  "unit": "一元二次方程式",
+  "belief": "次方可以分配到加減（(a+b)²=a²+b²）",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "QE-04",
+  "unit": "一元二次方程式",
+  "belief": "十字交乘只要一次項對就好",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "QE-05",
+  "unit": "一元二次方程式",
+  "belief": "開平方只要在前面加 ±",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "PR-01",
+  "unit": "機率",
+  "belief": "隨機事件的每種結果機率都一樣",
+  "type": "T6",
+  "secondary": null
+ },
+ {
+  "id": "PR-02",
+  "unit": "機率",
+  "belief": "剛出現很多次正面，下次比較可能是反面",
+  "type": "T6",
+  "secondary": null
+ },
+ {
+  "id": "PR-03",
+  "unit": "機率",
+  "belief": "機率 70% 就是一定會發生",
+  "type": "T6",
+  "secondary": null
+ },
+ {
+  "id": "PR-04",
+  "unit": "機率",
+  "belief": "自己印象深的事發生機率比較高",
+  "type": "T6",
+  "secondary": null
+ },
+ {
+  "id": "PR-05",
+  "unit": "機率",
+  "belief": "看起來比較亂的序列比較容易出現",
+  "type": "T6",
+  "secondary": null
+ },
+ {
+  "id": "PR-06",
+  "unit": "機率",
+  "belief": "比例相同，機率就一樣",
+  "type": "T6",
+  "secondary": "T2"
+ },
+ {
+  "id": "PR-07",
+  "unit": "機率",
+  "belief": "數量差比較多，機率就比較大",
+  "type": "T6",
+  "secondary": "T2"
+ },
+ {
+  "id": "TC-01",
+  "unit": "三角形的三心（外心、內心、重心）",
+  "belief": "（依自己畫的銳角圖下結論，忽略數據其實是鈍角）",
+  "type": "T5",
+  "secondary": null
+ },
+ {
+  "id": "TC-02",
+  "unit": "三角形的三心（外心、內心、重心）",
+  "belief": "外心一定在三角形內部",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "SC-01",
+  "unit": "放大縮小與比例尺",
+  "belief": "圖形放大後角度也變大",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "SC-02",
+  "unit": "放大縮小與比例尺",
+  "belief": "周長和面積放大的倍數一樣",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "SC-03",
+  "unit": "放大縮小與比例尺",
+  "belief": "面積放大的倍數等於邊長的倍數",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "SC-04",
+  "unit": "放大縮小與比例尺",
+  "belief": "斜邊放大時用目測畫",
+  "type": "T5",
+  "secondary": null
+ },
+ {
+  "id": "SM-01",
+  "unit": "相似形",
+  "belief": "看起來是直線就是直線",
+  "type": "T5",
+  "secondary": null
+ },
+ {
+  "id": "GM-01",
+  "unit": "幾何綜合（面積、勾股定理、三角形）",
+  "belief": "只有下面那條邊能當底",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "GM-02",
+  "unit": "幾何綜合（面積、勾股定理、三角形）",
+  "belief": "扇形的兩條邊不一定一樣長",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "PM-02",
+  "unit": "乘法公式與多項式",
+  "belief": "平方就是乘以 2（a²=2a；(2x)²=4x）",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "PM-03",
+  "unit": "乘法公式與多項式",
+  "belief": "平方差就是差的平方（a²−b²=(a−b)²）",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "PM-04",
+  "unit": "乘法公式與多項式",
+  "belief": "兩數的平方差等於兩數相乘（a²−b²=a×b）",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "PM-05",
+  "unit": "乘法公式與多項式",
+  "belief": "多項式的次數就是項數",
+  "type": "T1",
+  "secondary": "T4"
+ },
+ {
+  "id": "PM-06",
+  "unit": "乘法公式與多項式",
+  "belief": "多項式運算後的次數，照運算符號計算（3 次＋2 次＝5 次）",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "PM-07",
+  "unit": "乘法公式與多項式",
+  "belief": "多項式相加減次數取較小的，相乘取較大的",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "PM-08",
+  "unit": "乘法公式與多項式",
+  "belief": "直式運算時缺項不用補 0",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "PM-09",
+  "unit": "乘法公式與多項式",
+  "belief": "多項式相加減也要用分配律相乘",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "PM-11",
+  "unit": "乘法公式與多項式",
+  "belief": "等式也是多項式；單獨的常數不是多項式",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "PM-12",
+  "unit": "乘法公式與多項式",
+  "belief": "多項式除法不用做到餘式次數比除式低",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "PM-13",
+  "unit": "乘法公式與多項式",
+  "belief": "(a+b)(c+d)=ac+bd",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "PM-14",
+  "unit": "乘法公式與多項式",
+  "belief": "(a+b)(c+d) 可以省略括號直接算（a+b×c+d）",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "SR-01",
+  "unit": "平方根與畢氏定理",
+  "belief": "0 沒有平方根（平方根一定有正負兩個）",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "SR-02",
+  "unit": "平方根與畢氏定理",
+  "belief": "√a 就是 a 的平方根，所以 √64=±8",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "SR-03",
+  "unit": "平方根與畢氏定理",
+  "belief": "負數也有平方根，加上 √ 就是（−5 的平方根是 √−5）",
+  "type": "T2",
+  "secondary": "T4"
+ },
+ {
+  "id": "SR-04",
+  "unit": "平方根與畢氏定理",
+  "belief": "√(a²)=a，不管 a 是正是負",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "SR-05",
+  "unit": "平方根與畢氏定理",
+  "belief": "看到平方和根號就抵消，不管根號內有沒有加減（√(a²+b²)=a+b）",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "SR-06",
+  "unit": "平方根與畢氏定理",
+  "belief": "代一個數成立，性質就一定成立",
+  "type": "T7",
+  "secondary": null
+ },
+ {
+  "id": "SR-07",
+  "unit": "平方根與畢氏定理",
+  "belief": "無理數不是一個確定的數，只能算近似值",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "SR-08",
+  "unit": "平方根與畢氏定理",
+  "belief": "無理數在數線上找不到位置",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "SR-09",
+  "unit": "平方根與畢氏定理",
+  "belief": "同類方根就是兩個根式相等，不用先化成最簡根式",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "SR-11",
+  "unit": "平方根與畢氏定理",
+  "belief": "分母有理化只要乘上分母裡的根號（1/(1+√2)=√2/(1+2)）",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "SR-12",
+  "unit": "平方根與畢氏定理",
+  "belief": "不是同類方根就不能化簡，也不能有理化",
+  "type": "T4",
+  "secondary": "T3"
+ },
+ {
+  "id": "SR-13",
+  "unit": "平方根與畢氏定理",
+  "belief": "根號前的係數可以直接乘進根號內（a√b=√(ab)）",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "SR-14",
+  "unit": "平方根與畢氏定理",
+  "belief": "√a+√b=√(a+b)",
+  "type": "T2",
+  "secondary": null
+ },
+ {
+  "id": "SR-15",
+  "unit": "平方根與畢氏定理",
+  "belief": "比根式大小時不管根號前的數，只比根號內",
+  "type": "T1",
+  "secondary": "T3"
+ },
+ {
+  "id": "NG-06",
+  "unit": "正負數（整數運算）",
+  "belief": "0 是正數（或負數）",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "LF-01",
+  "unit": "線型函數",
+  "belief": "函數的式子一定要是 y=ax+b 的樣子",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "LF-02",
+  "unit": "線型函數",
+  "belief": "y=ax 沒有常數項，不能看成 y=ax+0",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "LF-04",
+  "unit": "線型函數",
+  "belief": "函數值可以從圖上目測估出來",
+  "type": "T5",
+  "secondary": null
+ },
+ {
+  "id": "QD-01",
+  "unit": "四邊形（平行四邊形與特殊四邊形）",
+  "belief": "四邊形轉了方向就不是原來的圖形（正方形立起來是菱形）",
+  "type": "T5",
+  "secondary": null
+ },
+ {
+  "id": "QD-02",
+  "unit": "四邊形（平行四邊形與特殊四邊形）",
+  "belief": "長方形的長和寬不能相等（正方形不是長方形）",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "QD-03",
+  "unit": "四邊形（平行四邊形與特殊四邊形）",
+  "belief": "梯形一定是等腰梯形",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "QD-04",
+  "unit": "四邊形（平行四邊形與特殊四邊形）",
+  "belief": "正方形、菱形不是平行四邊形（四邊形之間互相排斥）",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "QD-05",
+  "unit": "四邊形（平行四邊形與特殊四邊形）",
+  "belief": "立體圖中斜看的面，輪廓就是平面上的正方形或長方形",
+  "type": "T3",
+  "secondary": null
+ },
+ {
+  "id": "QD-06",
+  "unit": "四邊形（平行四邊形與特殊四邊形）",
+  "belief": "正方形是平行四邊形，所以平行四邊形也是正方形",
+  "type": "T7",
+  "secondary": null
+ },
+ {
+  "id": "QD-07",
+  "unit": "四邊形（平行四邊形與特殊四邊形）",
+  "belief": "圖上看起來平行就是平行，不需要說明",
+  "type": "T5",
+  "secondary": "T7"
+ },
+ {
+  "id": "QD-08",
+  "unit": "四邊形（平行四邊形與特殊四邊形）",
+  "belief": "對角線把面積分成四等分，就是長方形",
+  "type": "T7",
+  "secondary": null
+ },
+ {
+  "id": "CG-01",
+  "unit": "三角形的三心（外心、內心、重心）",
+  "belief": "圖上看起來像中線就當中線",
+  "type": "T5",
+  "secondary": null
+ },
+ {
+  "id": "FA-01",
+  "unit": "因式分解",
+  "belief": "用平方差公式時，係數不用先開平方",
+  "type": "T1",
+  "secondary": null
+ },
+ {
+  "id": "FA-02",
+  "unit": "因式分解",
+  "belief": "提出公因式後就算分解完成",
+  "type": "T4",
+  "secondary": null
+ },
+ {
+  "id": "EQ-19",
+  "unit": "一元一次方程式",
+  "belief": "題目出現的年份都可以當起點來算經過的時間",
+  "type": "T8",
+  "secondary": null
+ },
+ {
+  "id": "EQ-16",
+  "unit": "一元一次方程式",
+  "belief": "題目裡的量直接拿來算，不用先換成同一單位",
+  "type": "T8",
+  "secondary": null
+ },
+ {
+  "id": "EQ-17",
+  "unit": "一元一次方程式",
+  "belief": "條件很多時，只要把其中一個條件列成式子就好",
+  "type": "T8",
+  "secondary": null
+ }
+]
