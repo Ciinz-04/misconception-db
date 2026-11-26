@@ -1,0 +1,44 @@
+{
+  "template_id": "IT-A-7-03-03-001",
+  "instance_id": "A-7-03-03#MC-ALG-003",
+  "stem": "化簡 {a}x − ({b}x − {c}) 的結果為何？",
+  "params": {
+    "a": {
+      "type": "int",
+      "min": 2,
+      "max": 9
+    },
+    "b": {
+      "type": "int",
+      "min": 1,
+      "max": 9
+    },
+    "c": {
+      "type": "int",
+      "min": 1,
+      "max": 9
+    }
+  },
+  "constraints": [
+    "a != b"
+  ],
+  "answer": "(a−b)x + c",
+  "options": [
+    {
+      "formula": "(a−b)x + c",
+      "mc_id": null
+    },
+    {
+      "formula": "(a−b)x − c",
+      "mc_id": "MC-ALG-003"
+    },
+    {
+      "formula": "(a+b)x − c",
+      "mc_id": "MC-ALG-004"
+    },
+    {
+      "formula": "(a−b+c)x",
+      "mc_id": "MC-ALG-006"
+    }
+  ]
+}

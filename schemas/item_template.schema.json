@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "item_template.schema.json",
+  "title": "題目範本",
+  "type": "object",
+  "required": [
+    "template_id",
+    "instance_id",
+    "stem",
+    "params",
+    "answer",
+    "options"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "template_id": {
+      "type": "string",
+      "pattern": "^IT-.+$"
+    },
+    "instance_id": {
+      "type": "string"
+    },
+    "stem": {
+      "type": "string",
+      "description": "題幹，參數寫成 {a}、{b}"
+    },
+    "params": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "type"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "int",
+              "fraction",
+              "decimal"
+            ]
+          },
+          "min": {
+            "type": "number"
+          },
+          "max": {
+            "type": "number"
+          },
+          "exclude": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "參數限制（須落在 trigger_conditions 內）"
+    },
+    "answer": {
+      "type": "string",
+      "description": "正確答案的公式"
+    },
+    "options": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "formula",
+          "mc_id"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "formula": {
+            "type": "string"
+          },
+          "mc_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "正答填 null；誘答填產生它的迷思"
+          }
+        }
+      }
+    }
+  }
+}

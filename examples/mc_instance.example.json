@@ -1,0 +1,40 @@
+{
+  "instance_id": "A-7-03-03#MC-ALG-003",
+  "kp_id": "A-7-03-03",
+  "mc_id": "MC-ALG-003",
+  "nature_type": "T1",
+  "anchor": {
+    "type": "step",
+    "step_desc": "去括號",
+    "step_id": null
+  },
+  "error_patterns": [
+    {
+      "desc": "括號前是負號，只改第一項",
+      "examples": [
+        "−(x−2) = −x−2",
+        "5−(3x+4) = 5−3x+4"
+      ]
+    }
+  ],
+  "trigger_conditions": {
+    "terms_in_parentheses": ">=2",
+    "sign_before": "-"
+  },
+  "buggy_rule": {
+    "name": "negate_first_term_only",
+    "params": {}
+  },
+  "item_template": "IT-A-7-03-03-001",
+  "diagnostic_items": [
+    "DI-A-7-03-03-0001"
+  ],
+  "remediation": {
+    "explanation": "括號前的負號要乘進括號內每一項，每一項都要變號。",
+    "route_to": {
+      "step_id": null,
+      "prerequisite_kp": "（依盤點表對應）"
+    }
+  },
+  "evidence_tier": "verified"
+}

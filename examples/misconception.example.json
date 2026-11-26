@@ -1,0 +1,38 @@
+{
+  "mc_id": "MC-ALG-003",
+  "name": "負號只屬於第一項",
+  "belief": "括號前是負號，只要改第一項的符號。",
+  "correct_conception": "括號前是負號時，去括號後括號內每一項都要變號。",
+  "nature_type": "T1",
+  "secondary_type": null,
+  "old_rule": null,
+  "trigger": "括號內有兩項以上",
+  "origin": [
+    "instruction"
+  ],
+  "evidence": [
+    {
+      "level": "E1",
+      "source": "楊淑如（2016）",
+      "source_ref": "TH01",
+      "page": "p.45",
+      "grade": "G7"
+    },
+    {
+      "level": "E2",
+      "source": "114 年會考",
+      "source_ref": "114 會考 第 2 題",
+      "rate": "選項 D 全體 8.46%、待加強 23.94%"
+    }
+  ],
+  "evidence_tier": "verified",
+  "units": [
+    "正負數（整數運算）",
+    "一元一次方程式",
+    "乘法公式與多項式"
+  ],
+  "related_mc": [
+    "MC-ALG-004"
+  ],
+  "status": "draft"
+}
