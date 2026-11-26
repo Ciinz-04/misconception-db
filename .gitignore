@@ -10,3 +10,8 @@ __pycache__/
 # 系統與編輯器
 .DS_Store
 .vscode/
+
+# 會考試題與題目原文（有版權，不上傳）
+*.pdf
+tools/llm_distractor/items.json
+tools/llm_distractor/會考試題本/
